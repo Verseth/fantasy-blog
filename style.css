@@ -1,0 +1,200 @@
+/*Lore i wiedza. Mateusz Patryk Wawrzyniec Drewniak &copy; Wszelkie prawa zastrzeżone.
+Autorstwa Mateusza Patryka Wawrzyńca Drewniaka, jako projekt zaliczeniowy na zajęcia informatyki
+ w I klasie Technikum Informatycznego w Zespole Szkół Komunikacji im. Hipolita Cegielskiego w Poznaniu. Rocznik 1999.
+  2015 rok */
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	background-image: url("img/the_elder_scrolls_online-wide.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Kotta One', serif;
+}
+
+h1
+{
+	font-size: 30px;
+	color: #BFF9FC;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0.5%;
+	background-color: #303030;
+	padding: 20px;
+	opacity: 0.97;
+}
+
+#logo
+{
+	width: 1000px;
+	height: 170px;
+	line-height: 200%;
+	color: #6ED4C7;
+	font-family: 'Alex Brush', cursive;
+	font-size: 75px;
+	text-align: center;
+	background-image: url("img/logo_background.jpg");
+	background-position: 38% 5%;
+	background-repeat: no-repeat;
+}
+
+#menu
+{
+	width: 980px;
+	background-color: #404040;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+#content
+{
+	padding: 20px;
+	width: 960px;
+	text-align: justify;
+	font-size: 19px;
+	line-height: 125%;
+}
+
+#footer
+{
+	text-align: center;
+	font-size: 16px;
+	color: #aaaaaa;
+}
+
+.underlinelogo
+{
+	border-bottom: 2px solid #909B9C;
+	margin-bottom: 20px;
+}
+
+.underline
+{
+	border-bottom: 1px dotted #909B9C;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+ol
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 40px;
+	line-height: 300%;
+	
+}
+
+ol a
+{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	font-size: 20px;
+}
+
+ol > li
+{
+	float: left;
+	min-width: 80px;
+	height: 50px;
+	font-size: 20px;
+	border-right: 1px dotted #606060;
+	width: 194px;
+	transition-duration: 0.5s;
+}
+
+ol > li:last-child
+{
+	border-right: 0;
+}
+
+ol > li:hover
+{
+	background-color: #74D0C5;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+
+ol > li:hover > a
+{
+	color: #111E1C;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+	z-index: 100;
+}
+
+ol > li > ul
+{
+	display: none;
+}
+
+ol > li > ul > li
+{
+	background-color: #74D0C5;
+	position: relative;
+	width: 150px;
+	border-top: 1px dotted #606060;
+	height: 50px;
+	padding-left: 22px;
+	padding-right: 22px;
+	transition-duration: 0.5s;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #52B0A3;
+	position: relative;
+	width: 150px;
+	transition-duration: 0.5s;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: #111E1C;
+	transition-duration: 0.5s;
+}
+
+#content > ul > li
+{
+	font-size: 18px;
+}
+
+#content > ul > li > a
+{
+	color: #E69A4D;
+	line-height: 200%;
+	text-decoration: none;
+}
+
+a
+{
+	color: #E69A4D;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #C4782B;
+	text-decoration: none;
+}
